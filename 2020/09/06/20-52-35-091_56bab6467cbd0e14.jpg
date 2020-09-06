@@ -1,0 +1,1124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="typepad-standard" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<!-- head-common -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="http://www.typepad.com/" />
+	<meta name="robots" content="noindex,nofollow" />
+	
+	
+    <link rel="canonical" href="https://michaelfeathers.typepad.com/michael_feathers_blog/" />
+
+
+
+        <link rel="stylesheet" href="https://michaelfeathers.typepad.com/michael_feathers_blog/styles.css?v=6" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://static.typepad.com/.shared/themes/common/print.css" type="text/css" media="print" />
+
+<link rel="stylesheet" href="https://static.typepad.com/.shared/css/featherlight-gallery.css">
+
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<link rel="alternate" type="application/atom+xml" title="Posts on 'Michael Feathers' (Atom)" href="https://michaelfeathers.typepad.com/michael_feathers_blog/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Michael Feathers' (RSS 1.0)" href="https://michaelfeathers.typepad.com/michael_feathers_blog/index.rdf" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Michael Feathers' (RSS 2.0)" href="https://michaelfeathers.typepad.com/michael_feathers_blog/rss.xml" />
+	<script type="text/javascript">
+		var TPApp = {};
+		TPApp.app_uri = "https://www.typepad.com/";
+	</script>
+	<script type="text/javascript" src="https://static.typepad.com/.shared/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d8341d798c53ef00d83461ee2d69e2');
+ga('Typepad.set', 'dimension2', 'index');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+<meta property="og:title" content="Michael Feathers" />
+<meta property="og:site_name" content="Michael Feathers" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="https://michaelfeathers.typepad.com/michael_feathers_blog/" />
+<meta property="og:description" content="" />
+<meta property="fb:admins" content="" />
+<meta property="og:image" content="https://up4.typepad.com/6a00d8341d798c53ef017ee51b6c0a970d-220si" />
+
+
+
+	<title>Michael Feathers</title>
+	<link rel="openid.server" href="https://www.typepad.com/services/openid/server" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.typepad.com/services/rsd/6a00d8341d798c53ef00d83461ee2d69e2" />
+			<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://michaelfeathers.typepad.com/foaf.rdf" />
+	
+        
+</head>
+
+
+
+<body class="layout-two-column-right index">
+	
+	<div id="container" class="container">
+		<div id="container-inner" class="pkg">
+			
+        	<div class="row">
+     
+
+
+<a id="home"></a>
+   
+
+<!-- banner -->
+<div id="banner">
+	<div id="banner-inner" class="pkg">
+		
+		<h1 id="banner-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/" accesskey="1">Michael Feathers</a></h1>
+		<h2 id="banner-description">
+			
+		</h2>
+	</div>
+</div>
+
+
+
+
+
+
+                        <div id="pagebody">
+                        
+
+                                <div id="pagebody-inner" class="pkg">
+                                        <div id="alpha">
+                                                <div id="alpha-inner" class="pkg">
+                                                        
+
+
+
+
+
+<!-- CAROUSEL POSTS -->
+
+
+<!-- entry list sticky -->
+
+
+<!-- REGULAR POSTS -->
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">November 05, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef019b00b0501e970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/11/unconditional-programming.html">Unconditional Programming</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Control structures have been around nearly as long as programming but it&#39;s hard for me to see them as more than an annoyance.&#0160; Over and over again, I find that better code has fewer if-statements, fewer switches, and fewer loops.&#0160; Often this happens because developers are using languages with better abstractions.&#0160; They aren&#39;t consciously trying to avoid control structures but they do.&#0160;</p>
+<p>If we are working in an object-oriented language, we can replace switch-statements with polymorphism.&#0160; The same trick works well for if-statements too, but it can be overkill in simple cases. When we use languages with functional features, we can do most of the work that we do in loops using maps, filters, and folds. Control structures end up disappearing, and that can be a good thing.</p>
+<p>The problem with control structures is that they often make it easy to modify code in bad ways.&#0160; Let&#39;s take a simple if-statement:</p>
+<pre><span style="color: #0000ff;"><code>  if ...
+    ...
+  else
+    ...
+  end 
+</code></span></pre>
+<p>Every place that we have ellipses in that code is a place where we can put more code. Those places can access variables outside of the if. It&#39;s very easy to introduce coupling.&#0160; Moreover, people do routinely nest conditionals inside of conditionals.&#0160; Some of the worst code I&#39;ve ever seen is a cavernous nightmare of nested conditions with odd bits of work interspersed within them. I suppose that the real problem with control structures is that they are often mixed with the work. I&#39;m sure there&#39;s some way that we can see this as a form of single responsibility violation.</p>
+<p>What can we do?&#0160; Do we have to live with control structures?&#0160; In general, I think that we do, but it&#39;s an interesting exercise to see what we can do to reduce our use of them. Often we can learn new tricks and make our code clearer in the process.</p>
+<p>A while ago, I was working on some Ruby code and I needed to write a &#39;take&#39; function to take elements from the beginning of an array.&#0160; Ruby already has a take function on Enumerable, but I needed to special behavior.&#0160; If the number of elements I needed was larger than the number of elements in the array, I needed to pad the remaining space in the resulting array with zeros.</p>
+<p>This seems like a job for a simple if-statement:</p>
+<pre><span style="color: #0000ff; font-family: terminal, monaco;"><code>  def padded_take ary, n
+    if n &lt;= ary.length
+      ary.take(n)
+    else
+      ary + [0] * (n - ary.length)
+    end
+  end</code></span></pre>
+<p>Let&#39;s look at this code carefully.&#0160; There&#39;s nothing in it which tells us anything about what padding is, and how the pad relates to the array we&#39;re making. We can see what is happening if we look close, but we don&#39;t see the concepts in the code.</p>
+<p>We could introduce some functions to make it clearer, and simplify the conditional by using a guard clause:</p>
+<pre><span style="color: #0000ff;"><code>  def padded_take ary, n
+    return ary.take(n) unless needs_padding?(ary, n)
+    ary + pad(ary, n)
+  end</code></span></pre>
+<p>That&#39;s short and sweet but it doesn&#39;t take advantage of a simple fact - we can use a null object to get rid of a conditional.&#0160; An empty array is a wonderful null object. Let&#39;s start over.</p>
+<p>We don&#39;t need a conditional to compute the length of the pad.&#0160; The length is number of elements we want to take minus the length of the array, if the number we want to take is greater than the array length - it&#39;s the maximum of the difference and zero:</p>
+<pre><span style="color: #0000ff;"><code>  pad_length = [0, n - ary.length].max</code></span></pre>
+<p>If we have that, we can pad the array first and then take the number of elements we need from it:</p>
+<pre><span style="color: #0000ff;"><code>  def pad ary, n
+    pad_length = [0, n - ary.length].max
+    ary + [0] * pad_length
+  end</code></span></pre>
+<p>At this point, we can write our padded take:</p>
+<pre><span style="color: #0000ff;"><code>  def padded_take ary, n
+    pad(ary, n).take(n)
+  end</code></span></pre>
+<p>What we&#39;ve done is eliminate an if-statement by forming a computation that always appends a pad. However, sometimes that pad is just an empty array.</p>
+<p>I&#39;m not going to argue that this code is simpler than the if-then-else code we started with but it is more declarative and, in general, I don&#39;t think that code using this strategy is as prone to abuse. </p>
+<p>There&#39;s a clear advantage to being able to think at this level of abstraction. It pays dividends when we confront larger problems.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 05:11 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/11/unconditional-programming.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/11/unconditional-programming.html#comments">Comments (23)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/11/unconditional-programming.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">July 23, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef0191045e74e7970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/the-single-responsibility-principle-leads-to-good-openclosed-characteristics.html">The Single Responsibility and Open/Closed Principle are the Same</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Consider a class C and a set of potential feature changes F&#39;.&#0160; If class C has two responsibilities, it is likely that many F in F&#39; will only affect code for one of those responsibilities in C. </p>
+<p>We apply an F to C but, since there are two responsibilities in C it has less closure - it was open to F and to feature changes that applied to the other responsibility.</p>
+<p>Now consider separating responsibilities by breaking C into C1 and C2.&#0160; If F only applies to C1, C2 is closed with respect to F.</p>
+<p>Smaller, focused abstractions lead to closure.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 01:44 PM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/the-single-responsibility-principle-leads-to-good-openclosed-characteristics.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/the-single-responsibility-principle-leads-to-good-openclosed-characteristics.html#comments">Comments (10)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/the-single-responsibility-principle-leads-to-good-openclosed-characteristics.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">July 17, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef01901e4fc6ca970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/flipping-assumptions-with-programmer-anarchy.html">Flipping Assumptions with 'Programmer Anarchy'</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>I ran into a blog about Fred George&#39;s Programmer Anarchy concept the other day and it felt a bit weird.&#0160; By some quirk of fate, I&#39;ve seen Fred give a talk on the topic three times and it made a strong impression on me a few years ago, but I think that my takeaways were very different from those outlined in the blog.</p>
+<p>The first takeaway I had is that it is a thing that works.&#0160; I&#39;ve visited the company where Fred was working when this concept was developed and, sure enough, they are making money.&#0160; This is not science fiction.&#0160; The second takeaway is more subtle.&#0160; I&#39;ll get to it in a little while.</p>
+<p>For people who haven&#39;t seen Fred give his presentation, I&#39;ll just outline a few of the things that stand out for me in the barest form of the process. Teams, being anarchic, of course, can add anything need to get the job done:</p>
+<ol>
+<li>There is no automated testing.&#0160; Code is put into production very rapidly in a monitored environment, A/B tested to a wider group and left if it is found working.</li>
+<li>Code consists of micro-services that can be written in a heterogenous set of languages. &#0160;They are small: 10 - 100 lines, and they are expected to make money and then die quickly as the organization goes on to make money in other ways.</li>
+<li>Programmers work rapidly with non-programmers in an egalitarian environment, trying things out in a market and seeing what works.</li>
+<li>There&#39;s no need for management. It all just works.</li>
+</ol>
+<p>It sounds idyllic.&#0160; I know that I would like to work in an environment that free of constraints, particularly at the technical level.&#0160; As&#0160; &quot;the legacy code&quot; guy, I&#39;ve dreamt for years about what we would need to do to carry less code around in the industry.&#0160; Yes, code makes money, but it can be a drain.&#0160; There&#39;s a distance between what is easy and what is hard with regard to new features as a code base grows. Things that lead to that distance are often a mystery and organizations are left with persistent burdens that they didn&#39;t anticipate.&#0160;</p>
+<p>If code can just be good enough to make money and then die, in short order, it makes software development much easier.</p>
+<p>What does it take?&#0160; Well, I think that the key thing is a radically unstable domain. If a team creating an ERP system attempted Programmer Anarchy it would find that the code persists.&#0160; What&#39;s useful today is useful tomorrow and while that&#39;s good by most measures (you are able to make money from existing code), it&#39;s also bad because it is the first step toward a legacy trap.&#0160; Yes, we can do artificial things like rewrite code periodically whether it needs it or not, but frankly the economics are muddy.&#0160; It&#39;s hard to make the case for that.&#0160;</p>
+<p>To me, this leaves me with the idea that the piece of Programmer Anarchy that I&#39;ve described is really a tight fit for a particular type of problem space, and that gets me to my final takeaway about the concept. When we are presented with something like this that works, we can either bemoan the fact that we don&#39;t have the same problem, or we can do something more radical - we can try to find way to make money with a process like this. </p>
+<p>It&#39;s backward from the way that most people think about software and business. Usually, we go from business idea to software, but it can be valuable to flip it and say &quot;we have a way of working that is very streamlined - how can we make money with it?&quot;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 12:47 PM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/flipping-assumptions-with-programmer-anarchy.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/flipping-assumptions-with-programmer-anarchy.html#comments">Comments (6)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/flipping-assumptions-with-programmer-anarchy.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">June 17, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef0192ab3a483e970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html">Avoid Null Checks by Replacing Finders with Tellers</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>One of my pet peeves in programming is null checks.&#0160; Many codebases are littered with them and, as a result they are often very hard to understand.</p>
+<p>It&#39;s easy enough to complain about null checks, but it&#39;s harder to root out all of the places they occur and find alternatives.&#0160; The typical advice is to move your code toward using the null object pattern or to just check for null immediately and make sure that you don&#39;t pass nulls along in your program.&#0160; After all, we do often need to retrieve objects and sometimes they aren&#39;t there.&#0160;</p>
+<p>Let&#39;s re-examine that.</p>
+<p>Do we really need to retrieve or find objects in our programs?</p>
+<p>The other day, I saw this example on StackOverflow:</p>
+<pre><span style="color: #0000bf;"><code>    Person person = dataSource.getPersonById(personId);
+    if (person != null) {
+        person.setPhoneNumber(phoneNumber);
+        dataSource.updatePerson(person);
+    }</code></span></pre>
+<p>This looks like a typical case where we need a null check.&#0160; We attempt to find a person from a <em>dataSource</em> and we could get a null return value.&#0160; We could change the code to return a null object, a <em>Person</em> object that simply does nothing and that could solve the problem.&#0160; The code would look exactly the same except that it would be missing the null check.&#0160; The <em>setPhoneNumber</em> function would simply do nothing, and the <em>updatePerson</em> function would have the good sense not to add the null object to the database.</p>
+<p>Yes, would could do that, but it is a bit of work. There is an alternative that we can use if we get ourselves out of the mindset of asking for objects.</p>
+<p>Consider this bit of Ruby code:</p>
+<pre><span style="color: #0000bf;"><code>    data_source.person(id) do |person|
+      person.phone_number = phone_number
+      data_source.update_person person
+    end
+</code></span></pre>
+<p>The <em>person</em> method accepts an id for a person and a block.&#0160; If the person is found the block is called with the person.&#0160; Otherwise it isn&#39;t. Elegant, eh?&#0160; And, there are no nulls.</p>
+<p>Lots of luck doing this in a language without blocks or lambdas.&#0160; I think that when the history of computing is finally written, one of the chapters will be about how much insanity thrived in the era before blocks were considered mainstream.&#0160; In fact, I think we can argue that null checks became common precisely because most languages haven&#39;t had blocks until recently.</p>
+<p>Imagine doing this in Java without lambdas:</p>
+<pre><span style="color: #0000bf;"><code>    dataSource.person(id, new Action&lt;Person&gt;() {
+        public void act(Person person) {
+            person.setPhoneNumber(phoneNumber);
+            dataSource.updatePerson(person);
+        }
+    });</code></span></pre>
+<p>My eyes bleed. My soul too. It&#39;s no wonder why null-littered code is common in today&#39;s Java.</p>
+<p>This <em>teller method</em> pattern may seem like a special case, but it isn&#39;t.&#0160; One of the core ideas in object-orientation is that it is better to tell than to ask. When we tell someone to give someone else a thing, it either does or it doesn&#39;t. There&#39;s no need to check for an error.</p>
+<p>So, whenever you receive null from an API you&#39;ve written, don&#39;t complain.&#0160; After all, you asked for it. Consider telling the result to someone instead.</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 06:04 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html#comments">Comments (40)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">June 06, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef01901d0fb59c970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/guiding-software-development-with-design-challenges-1.html">Guiding Software Development with Design Challenges</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>
+<a class="asset-img-link" href="https://michaelfeathers.typepad.com/.a/6a00d8341d798c53ef0192aacdf9e5970d-pi" style="float: right;"><img alt="IMG_2517" class="asset  asset-image at-xid-6a00d8341d798c53ef0192aacdf9e5970d" src="https://michaelfeathers.typepad.com/.a/6a00d8341d798c53ef0192aacdf9e5970d-320wi" style="margin: 0px 0px 5px 5px;" title="IMG_2517" /></a>There&#39;s quite a bit of bad software design in the industry and that&#39;s surprising.&#0160; After all, there hasn&#39;t been any lack of guidance about design over the years. From the earliest days of programming, there have been people who&#39;ve shared their experience with creating software that is easy to change over time. As a result, we have an incredible number of concepts that we can fall back upon - <em>Coupling and Cohesion</em>, the <em>Single Responsibility Principle</em>, the <em>Law of Demeter</em>, the <em>Dependency Inversion Principle</em>, <em>Postel&#39;s Law, RESTful-ness</em>.&#0160; The list is nearly endless.&#0160; Surely, we should have good design by now. If only it were that simple.</p>
+<p>The fact of the matter is that many organizations do excel at design.&#0160; Not as many as I wish, but there are quite a few.&#0160; But, the teams I find most interesting are the ones that miss the mark by being overly allegiant to design guidance.&#0160; There&#39;s always that team that takes some piece of advice too seriously and ends up creating a mess.&#0160; A classic example is over-doing the <em>Dependency Inversion Principle</em> (DIP).&#0160; DIP tells us that it is better to depend on abstractions than it is to depend on implementation-esque entities. Some people, in statically typed OO languages, reduce it to&#0160; sound-bite and write code where every single concrete class has an associated interface. You can&#39;t really fault them on following directions, but when you look at the resulting mess, it&#39;s obvious that they lack judgment.&#0160; Or, that they don&#39;t feel the wiggle room that is necessary to apply judgment.&#0160; Recently, I&#39;ve arrived at the idea that we can fix that.&#0160;</p>
+<p>Most pieces of design guidance are presented in a context free style.&#0160; Essentially, they are stated as ideals - &quot;a good class in OO should look like this.&quot;&#0160; What would happen if we focused on the problem we&#39;re trying to solve rather than the solution?</p>
+<p>Imagine that you are working with someone and you see what would classically be called a <em>Single Responsibility Principle</em> violation. It&#39;s obvious to you that the class you are working on does several things, and the reason that you can see that is because you have wide experience with software.&#0160; The person you are working with may not yet have that sort of tuned design sense.&#0160; What can you do?</p>
+<p>Well one thing that you can do is launch into a discussion of <em>Single Responsibility</em> and work through some examples.&#0160; Your hope at the end of the process is that they&#39;ve absorbed the idea and, having seen some examples, can apply the concept in new situations. Maybe they can, maybe they can&#39;t, but there is a more direct way of approaching the problem.&#0160; We can simply say &quot;if we were going change this class to do &lt;some new thing&gt; what would we have to change?&quot;&#0160; Notice that this is completely open-ended.&#0160; You have a conversation, and in the process you deal with context. You may see that there is no need to split the class, or that in this particular situation you can, but it&#39;s not worth it.&#0160; In any case, you are dealing with something real - a particular piece of code and thoughts about how it has and will change.</p>
+<p>It turns out that nearly every design principle or piece of design guidance can be framed as a set of challenges to your code.&#0160; To approach <em>Liskov Substitution</em> you can ask the question &quot;will a caller be surprised if we replace every object of type A with an object of type B?&quot;&#0160; We can also approach bigger issues of <em>Open/Closed Principle</em> violations with hypothetical features - &quot;Suppose the business changes in this way and we need to add this feature. What classes will change?&quot;&#0160; Again, it is all grounded.</p>
+<p>I see the use of Design Challenges as a mental hack that is analogous to the move from Test-Driven Development to Behaviour-Driven Development. It&#39;s a re-placement of emphasis. I encourage you to try it out. The starting point is to learn how to take things you know about good design and frame them as questions.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 07:03 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/guiding-software-development-with-design-challenges-1.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/guiding-software-development-with-design-challenges-1.html#comments">Comments (4)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/guiding-software-development-with-design-challenges-1.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">March 18, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef017ee97a6b7d970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/03/scalars-as-implicit-collections-removing-an-edge.html">Scalars as Implicit Collections - Removing an Edge</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Every once in a while I get irritated by the edges in programming languages.&nbsp; One notorious edge is the absence or presence of a method on an object.&nbsp; The method is either there or it isn't and if you guess wrong you have a program that simply doesn't run. &nbsp;</p>
+<p>In some programming languages, there is a way around this.&nbsp; You can hook into the runtime to generate a method on an object when it is called but doesn't yet exist.&nbsp; Of course, that leaves us with the decision of what method to generate. And, I suspect that some of you reading this are wondering now whether this is some sort of rabbit hole - what problem am I trying to solve?&nbsp; In most cases, the fact that a method doesn't exist is important. We shouldn't gloss over it. But, sometimes we can gain advantage when we do.</p>
+<p>Consider finder methods. You have some criterion you want to use to find an object. Maybe some unique id.&nbsp; You call your finder and you have to deal with possibility that the thing you are looking for doesn't exist.&nbsp; Most of the time this means that you are obligated to use a null check in your language, but that's messy and people can easily forget to do it. Some functional programming languages get around this by using a Maybe or Option type, but there's another way to punt.&nbsp; You can make your finder always return a collection. If the thing you are looking for is not found, you receive an empty collection. "Okay," I can hear you say, "that is just passing the buck. You have to check later."&nbsp; The fact of the matter is that you may not have to. You could use a map to perform the same operation on each of the elements, provided there is no chance of having more than one.</p>
+<pre><code>    finder(criterion).map(&amp;:run)</code></pre>
+<p>This makes me wonder about something.&nbsp; What if we were were able to treat values as collections when we are programming?</p>
+<p>Consider this in a dynamic language.</p>
+<pre><code>    x = 4</pre></code>
+<p>When we type that, we expect that <code>x[0]</code> will yield an error, and we expect that <code>x[1][59][3]</code> would yield an error also.&nbsp; But what if they didn't?&nbsp; What if each of those references returned <code>4</code>. What if values could be treated as infinite collections of themselves in programming?&nbsp; Could that be a creative way of erasing an edge?&nbsp;</p>
+<p>Consider this in a Haskell-ish language.</p>
+<pre><code>    map (+1) [1,2,3]</pre></code>
+<p>We know that would yield <code>[2,3,4]</code></p>
+<p>Okay, how about this?</p>
+<pre><code>    map (+1) 3</pre></code>
+<p>Couldn't that evaluate to <code>4</code>?</p>
+<p>With an operation like <i>map</i>, this is easy.&nbsp; What about <i>fold</i> (codenamed <i>reduce</i> or <i>inject</i> in some languages)?</p>
+<p>If we did something like: <code>[0,1,2].reduce(:+)</code> in Ruby, we'd expect the sum.</p>
+<p>What should we expect for this?
+<pre><code>    2.reduce(:+)</pre></code>
+<p>The sensible answer is: <code>2</code>. A case could be made for infinity as it is the sum of an infinite list of 2s, but I think we can just say that it evaluates to <code>2</code> and maintain consistency.</p>
+<p>Maybe there is an inconsistency in this and it all falls down. But I hope that it works and that there is an efficient way to merge scalar values and collections of the same value. I suspect I'm just reinventing APL in conventional programming languages.</p>
+<p>&nbsp;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 02:13 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/03/scalars-as-implicit-collections-removing-an-edge.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/03/scalars-as-implicit-collections-removing-an-edge.html#comments">Comments (17)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/03/scalars-as-implicit-collections-removing-an-edge.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">February 25, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef017c37162f12970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/the-fallacy-of-one-definite-meaning.html">The Fallacy of One Definite Meaning</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>
+<a class="asset-img-link" href="https://michaelfeathers.typepad.com/.a/6a00d8341d798c53ef017c37162e0b970b-pi" style="float: right;"><img alt="IMG_2047" class="asset  asset-image at-xid-6a00d8341d798c53ef017c37162e0b970b" src="https://michaelfeathers.typepad.com/.a/6a00d8341d798c53ef017c37162e0b970b-320wi" style="margin: 0px 0px 5px 5px;" title="IMG_2047" /></a>I saw an interesting article on <a href="https://news.ycombinator.com/" target="_self">Hacker News</a> today. &#0160;It was called <a href="https://pthree.org/2009/12/31/the-meaning-of-su/" target="_self">The Meaning of &#39;su&#39;</a>, and it outlined the author&#39;s quest to understand the name of the&#0160;<em>su</em>&#0160;command in Unix. &#0160;It&#39;s a great read. &#0160;He starts with the assumption that <em>su</em> stands for super-user, and then infers that it means switch-user, and, well, it goes on from there. &#0160;But, there is an assumption behind all of it (and the <a href="https://news.ycombinator.com/item?id=5276892" target="_self">comments on Hacker News</a>) that really should be explored. The assumption is that things have one meaning.</p>
+<p>Among friends (ones who will put up with it, at least), I have a habit of saying one thing that can be taken three different ways and meaning <em>every single one of them</em>. It&#39;s fun, but I think it is more than fun. It highlights what are, to me, a few deep truths:</p>
+<ol>
+<li>Nobody has just one opinion about things. We are complex swirls of ideas and feelings, many of which may conflict yet be simultaneously true for us in our experience.</li>
+<li>Meaning isn&#39;t objective, it is subjective. When someone asks for the meaning of something, it&#39;s fair to ask: <em>for whom?</em> Meaning is a form of valuation, and without someone for whom there is meaning, or a <em>mean-er</em>, it doesn&#39;t really exist.</li>
+<li>Your meaning is as good as my meaning. And, in fact, your meaning can mean more to you than mine. &#0160;In other words, it doesn&#39;t matter what the authors of the <em>su</em> command intended, you get to decide what <em>su</em> stands for too.</li>
+</ol>
+<p>Here&#39;s the thing. I enjoy etymology. It&#39;s great to see how words came to be and what was originally intended by them. &#0160;But, the unstated assumption is that once we understand that, we have some advantage. For instance, if we understand the core of the word <em>property,</em> we understand what is common between the notion of, say, personal property, and the notion of an object having properties. &#0160;Powerful stuff. &#0160;But, I think there&#39;s also a lot of power in recognizing that maybe there never was one single intended meaning. Maybe there were many. It&#39;s possible that the people behind Unix were having some fun with multiple meanings too. I wouldn&#39;t put it past them.&#0160;</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 07:25 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/the-fallacy-of-one-definite-meaning.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/the-fallacy-of-one-definite-meaning.html#comments">Comments (11)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/the-fallacy-of-one-definite-meaning.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">February 20, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef017ee8a09d06970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/a-type-driven-approach-to-functional-design.html">A Type Driven Approach to Functional Design</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>
+<a class="asset-img-link" href="https://michaelfeathers.typepad.com/.a/6a00d8341d798c53ef017ee89f63a7970d-pi" style="float: left;"><img alt="IMG_1627" class="asset  asset-image at-xid-6a00d8341d798c53ef017ee89f63a7970d" src="https://michaelfeathers.typepad.com/.a/6a00d8341d798c53ef017ee89f63a7970d-200wi" style="width: 200px; margin: 0px 5px 5px 0px;" title="IMG_1627" /></a>InfoQ just put up a <a href="http://www.infoq.com/presentations/Type-Functional-Design" target="_self">presentation I did at StrangeLoop last year</a>. &#0160;It&#39;s a bit fuzzy as my talks go because I&#39;m describing a way of thinking about design while doing it.</p>
+<p>The crux involves thinking about the shapes of data and articulating intermediate steps between the input and output of a piece of a program. &#0160;I find that this helps me jiggle my thoughts about structure and arrive at the names of functions later. &#0160;It&#39;s sort of a sandwich between top-down and bottom-up.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 02:30 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/a-type-driven-approach-to-functional-design.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/a-type-driven-approach-to-functional-design.html#comments">Comments (0)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/a-type-driven-approach-to-functional-design.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">February 14, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef017ee8824094970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/sub-tree-selection-with-flattenselect.html">Subtree Selection with Flatten/Select</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Trees are wonderful data structures, but traversing them can often be a pain.&#0160; You can use recursion, as you long as you are confident that you won&#39;t overflow your stack. &#0160;But, if you want to do anything non trivial when you&#39;ve found the nodes you care about, it can be hard to keep that work separate from the traversal code.</p>
+<p>A few weeks ago, I ran into just this problem.&#0160; I was using Ruby&#39;s Ripper library to generate ASTs from Ruby source (Ripper calls them s-expressions).&#0160; Here is a simple example.</p>
+<p>This call:</p>
+<code>
+<pre>  Ripper<strong>.</strong>sexp(&quot;class A; def a; @a = @b; end; end&quot;)</pre>
+<pre><br /></pre>
+</code>
+<p>yields this AST for the code:</p>
+<code>
+<pre>  [:program, [[:class, [:const_ref, [:@const, &quot;A&quot;, [1, 6]]], nil, 
+    [:bodystmt, [[:def, [:@ident, &quot;a&quot;, [1, 13]], [:params, nil, nil, nil, nil, nil],
+      [:bodystmt, 
+        [[:assign, 
+          [:var_field, [:@ivar, &quot;@a&quot;, [1, 16]]], 
+          [:var_ref, [:@ivar, &quot;@b&quot;, [1, 21]]]]], nil, nil, nil]]], nil, nil, nil]]]]&#0160;</pre>
+</code>
+<p>&#0160;</p>
+<p>Essentially, it is a tree constructed from arrays showing the structure of the program along with some text locations.</p>
+<p>If we wanted to find all of the nodes for classes, it&#39;s simply a matter of searching for the arrays that start with a&#0160; with a <code>:class</code> symbol.&#0160; To find uses of instance variables, we search for a <code>:@ivar</code> symbol.&#0160; But, how do we traverse this?</p>
+<p>Well, we could write that recursive routine, or we could take advantage of the fact that our trees are stored as arrays and use some of the functional goodness that we have on the Array class.&#0160; In particular, the flatten function.&#0160;</p>
+<p>Flatten takes takes an array that may have elements that are arrays and merges those arrays into the top level.</p>
+<p>For example,</p>
+<code>
+<pre>  [1,[2,3],[4,[5]].flatten</pre>
+</code>
+<p>yields:</p>
+<code>
+<pre>  [1,2,3,4,5]</pre>
+</code>
+<p>&#0160;</p>
+<p>We can have more control if we provide an argument.&#0160; When you pass an integer, it tells flatten how many levels to merge into the top level.</p>
+<p>So,</p>
+<code>
+<pre>  [1,[2,3],[4,[5]]].flatten(1)</pre>
+</code>
+<p>yields:</p>
+<code>
+<pre>  [1,2,3,4,[5]]</pre>
+</code>
+<p>&#0160;</p>
+<p>Sweet, eh?</p>
+<p>Here&#39;s our strategy.&#0160; Take the array that represents the tree and flatten it one level.&#0160; Then, select all elements which are arrays that start with the symbol we care about.&#0160; Then, flatten the array to the next level, and select sub-arrays at that level which start with the symbol. We can group all of these selections together and end up with an array of all of the subtrees regardless of the level at which they were located in the original tree.</p>
+<p>If we have a sense of the maximum depth we can have in our tree, and we don&#39;t mind some inefficiency, we can do this using a side-effect free style:</p>
+<code>
+<pre>  def sexp_select sexp, symbols
+    (1..(max_nesting_level = 20)).map {|n| sexp.flatten(n)
+                                               .select {|e| nonempty_ary?(e) }
+                                               .select {|e| symbols.include? e[0] }}
+                                 .select {|e| nonempty_ary?(e) }
+                                 .flatten(1)
+  end<span style="font-family: &#39;Trebuchet MS&#39;, Verdana, sans-serif; font-size: small;">&#0160;</span></pre>
+</code>
+<p>&#0160;</p>
+<p>The code above takes a tree and produces a list of progressive flattenings of it.&#0160; The first element contains the tree flattened once, the second twice, etc.&#0160; It selects from each of them the arrays that have the symbol we care about as the first element.&#0160; We then select all of the non-empty arrays from that array (after all, there may be some levels that do not have the symbol we are interested in).&#0160; Afterward, we flatten that selection to bring all of the sub-trees from each of the flattenings to the top level.</p>
+<p>This expression:</p>
+<code>
+<pre>  sexp_select(Ripper<strong>.</strong>sexp(&quot;class A; def a; @a = @b; end; end&quot;), [:@ivar])
+</pre>
+</code>
+<p>yields:</p>
+<code>
+<pre>  [[:@ivar, &quot;@a&quot;, [1, 16]], [:@ivar, &quot;@b&quot;, [1, 21]]]</pre>
+</code>
+<p>which is an array of the subtrees that define the instance variable references in the AST.</p>
+<p>Yes, that function is an eyeful, and there are things that can be done to make the code clearer, such as assigning the subexpressions to variables so that we can name them well, but if we don&#39;t mind the extra processing that we are doing, this is a rather elegant way to find subtrees within a larger tree represented in an array. As well, it is a decent example of functional style in Ruby.</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<br />
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 02:24 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/sub-tree-selection-with-flattenselect.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/sub-tree-selection-with-flattenselect.html#comments">Comments (2)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/sub-tree-selection-with-flattenselect.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">January 31, 2013</h2>
+
+	<div class="entry-category-design_and_testing entry-author-michael_feathers entry-type-post entry" id="entry-6a00d8341d798c53ef017ee818b8ed970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/the-framework-superclass-anti-pattern.html">The Framework Superclass Anti-Pattern</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Unfortunately, this anti-pattern is too common.&#0160; It doesn&#39;t hurt until it hurts and when it does hurt, it hurts a lot.</p>
+<p>If you are developing frameworks do not provide superclasses that framework users must inherit to use your framework.&#0160; Inheritance is the one of the tightest forms of coupling you can use in OO.&#0160; When you force your users to inherit from you, you:</p>
+<ul>
+<li>Make it nearly impossible for users to test their logic independently of your framework</li>
+<li>Make migration away from your framework difficult, or impossible.</li>
+</ul>
+<p>The testing issue is subtle, but very real. &#0160;If you write tests as you develop you notice it immediately. When you inherit code from a framework,&#0160; it is mixed with your logic.&#0160; Often you are obliged to run that inherited code with the code that you really want to test, along with all of its dependencies, start up time, etc.&#0160;</p>
+<p>Migration, as well, is a very real issue. If you&#39;ve written logic important to your domain, there is nothing preventing you from being able to use that logic with other technology - nothing except coupling. </p>
+<p>Yes, users of frameworks can guard themselves from that coupling by making their own adapters, but why put them through that?&#0160; Most of us hate vendor lock-in strategies in business.&#0160; Framework Superclasses are a very direct form of vendor lock-in.&#0160;</p>
+<p>As a framework designer, you have many other choices: eventing, listeners, and object composition.</p>
+<p>Consider them.&#0160; Thank you.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 08:22 AM in <a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/the-framework-superclass-anti-pattern.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/the-framework-superclass-anti-pattern.html#comments">Comments (19)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/the-framework-superclass-anti-pattern.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+			<div class="pager-bottom pager-entries pager content-nav">
+		<div class="pager-inner">
+			
+			
+			<span class="pager-right">
+				<a href="https://michaelfeathers.typepad.com/michael_feathers_blog/page/2/"><span class="pager-label">Next</span>
+					<span class="chevron">&#187;</span></a>
+			</span>
+		</div>
+	</div>
+	
+	
+
+        
+
+
+
+                                                </div>
+                                        </div>
+                                        <div id="beta">
+                                                <div id="beta-inner" class="pkg">
+                                                        <!-- sidebar -->
+
+
+<!-- list_inlcude.tt  -->
+<div id="courses_and_workshops" class="module-typelist module">
+<h2 class="module-header">Courses and Workshops</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="http://www.agileisland.is/" >Reducing Technical Debt - Nov 21-22, 2013 Reykjavik</a><br /></li>
+							<li class="module-list-item"><a href="http://buildstuff.lt/" >Error-proofing Software - Dec 12, 2013 Vilnius, Lithuania</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="upcoming_conference_talks" class="module-typelist module">
+<h2 class="module-header">Upcoming Conference Talks</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="http://www.agileisland.is/" >Symbiotic Design Practice - Nov 20, 2013 Reykjavik</a><br /></li>
+							<li class="module-list-item"><a href="http://buildstuff.lt/" >Keynote - BuildStuff - Dec 11, 2013 Vilnius, Lithuana</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/archives.html">Archives</a></h2>
+		<div class="module-content">
+												<ul class="module-list">
+				
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/11/index.html">November 2013</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/index.html">July 2013</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/index.html">June 2013</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/03/index.html">March 2013</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/index.html">February 2013</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/index.html">January 2013</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2012/12/index.html">December 2012</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2012/11/index.html">November 2012</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2012/09/index.html">September 2012</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2012/05/index.html">May 2012</a></li>
+									</ul>
+									<p class="module-more"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/archives.html">More...</a></p>
+				
+				
+			
+		</div>
+	</div>
+
+<div class="module-categories module">
+	<h2 class="module-header"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/archives.html">Categories</a></h2>
+	<div class="module-content">
+                   <ul class="module-list">
+
+
+                        <li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/current_affairs/">Current Affairs</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/design_testing/">Design and Testing</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/teams_and_culture/">Teams and Culture</a></li>
+</span>
+		</ul>
+
+<a style="font-size:85%;display:none;" class="cat-more" href="https://michaelfeathers.typepad.com/michael_feathers_blog/archives.html">See More</a>
+	</div>
+</div>
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/11/unconditional-programming.html">Unconditional Programming</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/the-single-responsibility-principle-leads-to-good-openclosed-characteristics.html">The Single Responsibility and Open/Closed Principle are the Same</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/07/flipping-assumptions-with-programmer-anarchy.html">Flipping Assumptions with 'Programmer Anarchy'</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html">Avoid Null Checks by Replacing Finders with Tellers</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/guiding-software-development-with-design-challenges-1.html">Guiding Software Development with Design Challenges</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/03/scalars-as-implicit-collections-removing-an-edge.html">Scalars as Implicit Collections - Removing an Edge</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/the-fallacy-of-one-definite-meaning.html">The Fallacy of One Definite Meaning</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/a-type-driven-approach-to-functional-design.html">A Type Driven Approach to Functional Design</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/02/sub-tree-selection-with-flattenselect.html">Subtree Selection with Flatten/Select</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/the-framework-superclass-anti-pattern.html">The Framework Superclass Anti-Pattern</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+<!-- about page link -->
+<div class="module-about module">
+	<h2 class="module-header"><a
+		href="https://michaelfeathers.typepad.com/about.html">About</a></h2>
+</div>
+<div class="module-syndicate module">
+	<div class="module-content">
+	<a href="https://michaelfeathers.typepad.com/michael_feathers_blog/atom.xml"><i class="fas fa-rss"></i> Subscribe to this blog's feed</a>
+	</div>
+</div>
+<!-- powered by -->
+<div class="module-powered module">
+        <div class="module-content">
+
+                <a href="https://www.typepad.com/" title="Blog">Blog</a> powered by <a href="https://www.typepad.com/" title="TypePad">Typepad</a>
+
+        </div>
+</div>
+
+
+
+
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+</div> <!-- row -->
+                        
+
+
+
+                </div>
+        </div>
+        
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="https://www.typepad.com/t/stats?blog_id=509451&amp;user_id=1065164&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+
+
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+<!-- ph=1 -->
